@@ -11,6 +11,6 @@ for(i=a;i<=b;i++)
 {
 if(rem==0)
 {
-printf("the odd number b/w %d and %d \n a,b);
+printf("the odd number between %d and %d \n" a,b);
 printf("\n%d",i);
 }
