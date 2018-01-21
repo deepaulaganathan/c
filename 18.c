@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main()
 {
-    int number, originalNumber, remainder, result = 0;
+    int number,a, remainder, result = 0;
 
     printf("Enter a three digit integer: ");
-    scanf("%d", &number);
+    scanf("%d", &a);
 
-    originalNumber = number;
+    originalNumber = a;
 
     while (originalNumber != 0)
     {
@@ -15,10 +15,10 @@ int main()
         originalNumber /= 10;
     }
 
-    if(result == number)
-        printf("%d is an Armstrong number.",number);
+    if(result == a)
+        printf("%d is an Armstrong number.",a);
     else
-        printf("%d is not an Armstrong number.",number);
+        printf("%d is not an Armstrong number.",a);
 
     return 0;
 }
